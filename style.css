@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+     
+}
+body{
+     background:  #333 url('images/bg.jpg') center center no-repeat ; 
+     background-size:cover;
+     color:#532837;
+    
+    
+}
+
+.container{
+    width: 400px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 50px;
+  /*  background: url('images/paper-pattern.jpg') top left repeat;*/
+    background: rgba(174, 105, 105, 0.2);;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    text-align: center;
+
+}
+
+h1{ 
+    margin:0 0 20px;
+    padding:0 0 20px;
+    border-bottom: solid 1px #ddd;
+
+}
+forms{
+    text-align:left;
+}
+forms label{
+   display: block;
+    margin:25px 0;
+    font-weight:bold;
+
+}
+forms input,
+forms select{
+    padding:8px ;
+    margin:10px 0;
+}
+
+forms input[type="text"]{
+    
+    width:90px ;
+}
+#erdestination,#erage,#erbooking_type{
+    color: red;
+    font-size: 15px;
+    font-weight: 100;
+}
+button{
+    background:#6c2726;
+    color: white;
+    border:none;
+    border-bottom:solid 4px #222;
+    text-transform: uppercase;
+    font-size:18px;
+    padding: 20px 30px;
+    width: 100%;
+
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color:#111;
+}    
+
+button:active {
+    position:relative;
+    top:1px;
+}
+#finalprice{
+    font-size:50px;
+    margin-top:20px;
+    padding-bottom: 0;
+}
+
+#finalprice::before {
+    content:"Final price";
+    font-size:14px;
+    font-weight:bold;
+    display:block;
+    text-transform: uppercase;
+
+}
+#normalprice{
+    font-size:50px;
+    margin-top:20px;
+    padding-bottom: 0;
+}
+
+#normalprice::before {
+    content:"Normal Price";
+    font-size:14px;
+    font-weight:bold;
+    display:block;
+    text-transform: uppercase;
+
+}
+
+
+   
+
