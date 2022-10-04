@@ -5,7 +5,7 @@
      
 }
 body{
-     background:  #333 url('images/bg.jpg') center center no-repeat ; 
+     background:  #333 url('images/bg.jpg') center 35% no-repeat ; 
      background-size:cover;
      color:#532837;
     
@@ -14,12 +14,13 @@ body{
 
 .container{
     width: 400px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px 50px;
   /*  background: url('images/paper-pattern.jpg') top left repeat;*/
-    background: rgba(174, 105, 105, 0.2);;
+    background: rgba(174, 105, 105, 0.2);
+
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
